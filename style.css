@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.head-part {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.head-img {
+    padding-left: 100px;
+}
+
+.mission {
+    color: #F25C05;
+}
+
+.focus {
+    font-size: 2rem;
+    border-left: 5px solid #A61508;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.head-img img {
+    width: 80%;
+}
+
+.explore-btn {
+    color: white;
+    background-color: #A61508;
+    padding: 10px;
+    border: 1px solid #A61508;
+    border-radius: 10px;
+}
+
+.explore-btn:hover {
+    color: #A61508;
+    border: 1px solid #A61508;
+    background-color: white;
+}
