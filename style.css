@@ -45,11 +45,12 @@ body {
     color: #A61508;
     border: 1px solid #A61508;
     background-color: white;
+    transition: 1s;
 }
 
 .mission {
     width: 80%;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 
 .mission-title {
@@ -70,7 +71,7 @@ body {
 
 .mission-mission {
     background-color: #D6F2C9;
-    border: 1px solid gray;
+    border: 1px solid #F27405;
     padding: 20px;
     border-radius: 20px;
 }
@@ -84,7 +85,37 @@ body {
 
 .mission-goal {
     background-color: #F27405;
-    border: 1px solid gray;
+    border: 1px solid black;
     padding: 20px;
     border-radius: 20px;
+}
+
+.develop-part {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    background-image: url('./images/shapes/shape-1.png');
+    background-position: left bottom;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.community-part {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    background-image: url('./images/shapes/shape-9.png');
+    background-position: right bottom;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.develop-part img {
+    width: 70%;
+}
+
+.community-part img {
+    width: 80%;
 }
