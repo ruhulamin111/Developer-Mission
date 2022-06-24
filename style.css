@@ -18,11 +18,11 @@ body {
     padding-left: 100px;
 }
 
-.mission {
+.title-focus {
     color: #F25C05;
 }
 
-.focus {
+.title {
     font-size: 2rem;
     border-left: 5px solid #A61508;
     border-radius: 5px;
@@ -45,4 +45,46 @@ body {
     color: #A61508;
     border: 1px solid #A61508;
     background-color: white;
+}
+
+.mission {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.mission-title {
+    text-align: center;
+    color: #A61508;
+    font-size: 2rem;
+}
+
+.my-mission {
+    display: flex;
+    gap: 20px;
+}
+
+.my-mission img {
+    width: 60%;
+}
+
+
+.mission-mission {
+    background-color: #D6F2C9;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.mission-vision {
+    background-color: #F2E6DF;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.mission-goal {
+    background-color: #F27405;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 20px;
 }
