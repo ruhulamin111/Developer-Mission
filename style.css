@@ -119,3 +119,32 @@ body {
 .community-part img {
     width: 80%;
 }
+
+.app-title {
+    text-align: center;
+    color: #F27405;
+    font-size: 2rem;
+}
+
+.application-part {
+    display: flex;
+    align-items: center;
+}
+
+.application-part img {
+    width: 70%;
+}
+
+.application {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.copyright {
+    text-align: center;
+}
+
+footer {
+    background-color: #D6F2C9;
+    padding: 20px;
+}
